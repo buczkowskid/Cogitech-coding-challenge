@@ -1,4 +1,4 @@
-# Cogitech-coding-challenge
+# Users-Posts-App
 
 This coding challenge is a small Vue.js and Vuex.js single page application showing user posts using a REST API with the possibility of expanding or deleting content.
 
