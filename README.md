@@ -23,7 +23,7 @@ The page auto-updates as you edit the file.
 - [Vue.js] https://vuejs.org/
 - [Vuex.js] https://vuex.vuejs.org/
 - [vue-read-more-smooth] https://github.com/DiCrEn/vue-read-more-smooth
-- [vuex-pagination] https://github.com/cyon/vuex-pagination
+
 
 
 
