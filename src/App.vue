@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper">
-		<h1>Post App</h1>
+		<h1>Users Posts</h1>
 		<PostApp />
 	</div>
 </template>

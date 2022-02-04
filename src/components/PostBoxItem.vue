@@ -5,13 +5,12 @@
 				<div class="reviews__box">
 					<div class="reviews__box-info">
 						<h2 class="reviews__box-title">{{ post.title }}</h2>
-						<VueReadMoreSmooth :lines='3'>
+						<VueReadMoreSmooth :lines="3">
 							<p class="reviews__box-text">
 								{{ post.body }}
 							</p>
 						</VueReadMoreSmooth>
-						<strong>{{ post.userId }}</strong>
-
+						<UserNameItem />
 						<font-awesome-icon
 							:icon="['fas', 'times']"
 							@click="deleteItem"
@@ -26,11 +25,12 @@
 
 <script>
 import VueReadMoreSmooth from "vue-read-more-smooth";
+import UserNameItem from "./UserNameItem.vue";
 
 export default {
-	props: ["post", "users"],
+	props: ["post", "user"],
 
-	components: { VueReadMoreSmooth },
+	components: { VueReadMoreSmooth, UserNameItem },
 
 	methods: {
 		deleteItem() {
@@ -53,11 +53,6 @@ export default {
 		padding: 2em;
 		border-radius: 8px;
 		box-shadow: 3px 3px 10px #2e2e2e2e;
-		// transition: transform 0.3s;
-
-		// &:hover {
-		// 	transform: scale(0.95);
-		// }
 	}
 
 	&__box-title {
@@ -88,5 +83,3 @@ export default {
 	}
 }
 </style>
-
-// Try to paste html and scss from your project

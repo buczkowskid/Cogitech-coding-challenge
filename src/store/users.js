@@ -1,5 +1,3 @@
-// Import API call
-
 import { usersRequest } from "../services/api.js";
 
 export default {
@@ -20,7 +18,7 @@ export default {
 					.then((res) => {
 						commit("setUsers", res.data);
 						resolve(res);
-                        console.log(res.data);
+						console.log(res.data);
 					})
 					.catch((err) => {
 						reject(err);

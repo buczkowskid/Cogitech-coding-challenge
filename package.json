@@ -1,5 +1,5 @@
 {
-  "name": "post-handler",
+  "name": "users-post-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "axios": "^0.25.0",
     "core-js": "^3.6.5",
+    "jw-vue-pagination": "^1.0.3",
     "vue": "^2.6.11",
     "vue-read-more-smooth": "^0.1.8",
     "vuex": "^3.6.2",
