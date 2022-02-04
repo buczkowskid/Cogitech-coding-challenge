@@ -1,6 +1,6 @@
 # Users-Posts-App
 
-This coding challenge is a small Vue.js and Vuex.js single page application showing user posts using a REST API with the possibility of expanding or deleting content.
+This coding challenge is a small Vue.js and Vuex.js single page application showing user posts using a REST API with the possibility of expanding or deleting content. The app uses pagination, so only 10 posts are shown per page.
 
 
 ## Run locally
@@ -8,7 +8,9 @@ This coding challenge is a small Vue.js and Vuex.js single page application show
 First, run the development server:
 
 bash
+
 npm install
+
 npm run serve
 
 
@@ -21,6 +23,7 @@ The page auto-updates as you edit the file.
 - [Vue.js] https://vuejs.org/
 - [Vuex.js] https://vuex.vuejs.org/
 - [vue-read-more-smooth] https://github.com/DiCrEn/vue-read-more-smooth
+- [vuex-pagination] https://github.com/cyon/vuex-pagination
 
 
 
