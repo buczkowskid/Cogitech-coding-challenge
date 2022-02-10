@@ -10,7 +10,7 @@
 								{{ post.body }}
 							</p>
 						</VueReadMoreSmooth>
-						<UserNameItem />
+						
 						<font-awesome-icon
 							:icon="['fas', 'times']"
 							@click="deleteItem"
@@ -25,12 +25,12 @@
 
 <script>
 import VueReadMoreSmooth from "vue-read-more-smooth";
-import UserNameItem from "./UserNameItem.vue";
+
 
 export default {
 	props: ["post", "user"],
 
-	components: { VueReadMoreSmooth, UserNameItem },
+	components: { VueReadMoreSmooth },
 
 	methods: {
 		deleteItem() {
