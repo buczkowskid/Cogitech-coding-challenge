@@ -2,6 +2,9 @@
 
 This coding challenge is a small Vue.js and Vuex.js single page application showing user posts using a REST API with the possibility of expanding or deleting content. The app uses pagination, so only 10 posts are shown per page.
 
+## Demo
+
+https://users-post-app.netlify.app/
 
 ## Run locally
 
